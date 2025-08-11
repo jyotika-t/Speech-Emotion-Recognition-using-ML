@@ -29,9 +29,6 @@ This project aims to develop a robust system for recognizing human emotions from
 * **Jupyter Notebook:** For interactive development and experimentation.
 
 ## Dataset
-
-*(**You need to fill this part based on your notebook.**)*
-
 * **Name of Dataset:** [TESS]
 * **Description:** Briefly describe the dataset(s) used, including the number of speakers, types of emotions covered, and approximate size.
 * **Source:** Provide a link to the dataset if it's publicly available.
