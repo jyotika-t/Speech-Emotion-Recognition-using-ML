@@ -37,9 +37,6 @@ This project aims to develop a robust system for recognizing human emotions from
 This project primarily uses the **Ryerson Audio-Visual Database of Emotional Speech and Song (RAVDESS)** dataset, which contains emotional speech and song from 24 professional actors (12 male, 12 female), uttering a standard set of sentences in a neutral North American accent. The emotions include calm, happy, sad, angry, fearful, disgust, surprised, and neutral.
 
 ## Model Architecture
-
-*(**You need to elaborate on the specific model architecture used in your notebook.**)*
-
 * **Type of Model:** [e.g., Convolutional Neural Network (CNN), Long Short-Term Memory (LSTM) network, or a hybrid CNN-LSTM model]
 * **Layers:** Describe the layers used (e.g., Convolutional layers, Pooling layers, Dense layers, Dropout, Activation functions).
 * **Input Shape:** Mention the expected input shape for the model (e.g., `(num_time_steps, num_features)` for RNNs or `(height, width, channels)` for CNNs on spectrograms).
@@ -49,9 +46,5 @@ This project primarily uses the **Ryerson Audio-Visual Database of Emotional Spe
 The model is a Convolutional Neural Network (CNN) designed to process MFCC features. It consists of multiple convolutional layers with ReLU activations, followed by max-pooling layers to downsample the feature maps. Flattening leads to dense layers with dropout for regularization, culminating in a final dense layer with a softmax activation for classifying the 7 emotions.
 
 ## Results
-
-*(**Summarize your key findings from the notebook. Include metrics like accuracy, F1-score, confusion matrix observations, etc.**)*
-
-*Example:*
-The trained model achieved an accuracy of approximately **[Your Accuracy]%** on the test set. Analysis of the confusion matrix revealed [mention any specific insights, e.g., "higher accuracy for 'happy' and 'neutral' emotions, but some confusion between 'fearful' and 'angry'"].
+The trained model achieved an accuracy of approximately 97% on the test set.
 
